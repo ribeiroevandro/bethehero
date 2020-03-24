@@ -1,2 +1,2 @@
 [build]
-  publish = "packages/web/"
+  publish = "packages/web/build/"
