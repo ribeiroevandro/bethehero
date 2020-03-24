@@ -12,6 +12,8 @@ app.use(cors());
 app.use(express.json());
 app.use(routes);
 
+app.disable("x-powered-by");
+
 app.listen(port, () => {
   console.log("Server Started on port:", port);
 });
