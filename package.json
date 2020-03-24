@@ -1,9 +1,15 @@
 {
   "name": "bethehero",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "repository": "git@github.com:ribeiroevandro/bethehero.git",
   "author": "Evandro Ribeiro <ribeiroevandro@live.com>",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
