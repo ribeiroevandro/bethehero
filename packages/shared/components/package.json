@@ -1,0 +1,12 @@
+{
+  "name": "@shared/components",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "react": "~16.9.0",
+    "react-native": "*",
+    "styled-components": "*"
+  },
+  "devDependencies": {
+    "styled-components": "^5.1.0"
+  }
+}

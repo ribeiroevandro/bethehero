@@ -2,6 +2,7 @@ import React from 'react';
 import { Linking } from 'react-native';
 import { AntDesign } from '@expo/vector-icons';
 
+
 import {
   Container,
   Title,
@@ -26,6 +27,7 @@ export default function Home() {
           <LinkText>/ribeiroevandro/expo-template-basic</LinkText>
         </Link>
       </LinkContainer>
+      <Test>Teste</Test>
     </Container>
   );
 }
